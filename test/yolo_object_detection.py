@@ -5,7 +5,7 @@ import random
 
 
 # Load Yolo
-net = cv2.dnn.readNet("yolov3_training_800.weights", "yolov3_testing.cfg")
+net = cv2.dnn.readNet("yolov3_training_1000.weights", "yolov3_testing.cfg")
 
 # Name custom object
 classes = ["Bike","Construcao"]
@@ -70,7 +70,6 @@ for img_path in images_path:
             cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)
             cv2.putText(img, label, (x, y + 30), font, 3, color, 2)
             print("Objeto:" + str(classes[class_ids[i]]) + " - Acurácia:" + str(confidences[i]))
-
 
     #if class_id > 0:
     cv2.imshow("Image", img)  
