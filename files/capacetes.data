@@ -1,0 +1,5 @@
+classes= 2
+train  = C:/Users/Computer/Documents/Reconhecimento-de-Imagens--YOLO-/train.txt
+valid  = C:/Users/Computer/Documents/Reconhecimento-de-Imagens--YOLO-/test.txt
+names = C:/Users/Computer/Documents/Reconhecimento-de-Imagens--YOLO-/labels.txt
+backup = C:/Users/Computer/Documents/Reconhecimento-de-Imagens--YOLO-/backup/
