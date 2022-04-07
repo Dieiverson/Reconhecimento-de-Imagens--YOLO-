@@ -5,13 +5,13 @@ import random
 
 
 # Load Yolo
-net = cv2.dnn.readNet("yolov3_training_500.weights", "yolov3_testing.cfg")
+net = cv2.dnn.readNet("yolov3_training_800.weights", "yolov3_testing.cfg")
 
 # Name custom object
 classes = ["Bike","Construcao"]
 
 # Images path
-images_path = glob.glob(r"C:\Users\Computer\Documents\Reconhecimento-de-Imagens--YOLO-\files\images\*.jpg")
+images_path = glob.glob(r"C:\Users\Computer\Documents\Reconhecimento-de-Imagens--YOLO-\images-test\*.jpg")
 
 
 
